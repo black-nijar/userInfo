@@ -1,9 +1,14 @@
-const initState = {};
+const initState = {
+  details: {}
+}
 
-export const userInfoReducer =(state= initState, action) => {
-  switch(action.type) {
+export const userInfoReducer = (state = initState, action) => {
+  switch (action.type) {
     case 'USER_DETAILS':
-      return action.info
+      return {
+        ...state,
+        details: action.info
+      }
     default:
       return state;
   }
