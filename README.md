@@ -1,5 +1,5 @@
 # React and Firebase web application
-```
+
 ---
 ![Hnet-image (1)](https://user-images.githubusercontent.com/50949038/71614036-99fde780-2bcf-11ea-9c17-cac4c756e54d.gif)
 ---
